@@ -1,8 +1,8 @@
 pipeline{
     agent none
     environment{
-        BUILD_SERVER='ec2-user@18.188.172.90'
-        DEPLOY_SERVER='ec2-user@18.220.82.244'
+        BUILD_SERVER='ec2-user@18.117.245.85'
+        DEPLOY_SERVER='ec2-user@18.188.44.68'
         IMAGE_NAME='vinuagnihotri/dockertest:php$BUILD_NUMBER'
     }
     stages{

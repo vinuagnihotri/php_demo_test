@@ -7,7 +7,7 @@ services:
       depends_on:
       - mysql
     mysql:
-      image: vinuagnihotri/dockertest:mysql
+      image: vinuagnihotri/mysql:emp
       volumes:
       - db_data:/var/lib/mysql
       environment:
